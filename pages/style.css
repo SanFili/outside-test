@@ -1,0 +1,4 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../blocks/start-page/start-page.css');
+@import url('../blocks/popup/popup.css');

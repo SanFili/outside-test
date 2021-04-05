@@ -1,0 +1,24 @@
+.start-page__btn {
+    width: 198px;
+    height: 56px;
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    background: transparent;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 44px #CFDAE7);
+    padding: 16px 32px; 
+    cursor: pointer;
+}
+
+.start-page__btn:hover {
+    border: none;
+    filter: none;
+    color: #000;
+    background-color: #fff;
+}

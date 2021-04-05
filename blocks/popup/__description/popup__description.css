@@ -1,0 +1,9 @@
+.popup__description {
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin: 16px 0 24px;
+}
