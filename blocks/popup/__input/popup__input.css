@@ -1,13 +1,26 @@
 .popup__input {
-    width: 488px;
+    width: 478px;
     height: 40px;
     border: 1px solid #DFE3E6;
     border-radius: 3px;
     margin: 8px 0;
-    padding: 0;
+    padding: 0 0 0 10px;
     font-family: 'Lab Grotesque';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+}
+
+.popup__input:hover {
+    border-color: #000;
+}
+
+.popup__input:focus {
+    outline: none;
+}
+
+.popup__input:disabled {
+    border-color: #808080;
+    color: #808080;
 }

@@ -5,6 +5,11 @@
 @import url('./__description/popup__description.css');
 @import url('./__input/popup__input.css');
 @import url('./__calc/popup__calc.css');
+@import url('./__checkbox/popup__checkbox.css');
+@import url('./__check/popup__check.css');
+@import url('./__radiobox/popup__radiobox.css');
+@import url('./__radio/popup__radio.css');
+@import url('./__btn/popup__btn.css');
 
 .popup {
     position: fixed;

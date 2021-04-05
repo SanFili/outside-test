@@ -2,3 +2,14 @@
 @import url('../vendor/fonts.css');
 @import url('../blocks/start-page/start-page.css');
 @import url('../blocks/popup/popup.css');
+
+span {
+    margin-left: 3px;
+    color: #808080;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
