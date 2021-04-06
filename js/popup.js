@@ -1,8 +1,8 @@
 class Popup {
-    constructor(popup, mainButton, closeBtn) {
-        this.popup = popup;
-        this.startBtn = mainButton;
-        this.closeBtn = closeBtn;
+    constructor() {
+        this.popup = document.querySelector('.popup');
+        this.startBtn = document.querySelector('.start-page__btn');
+        this.closeBtn = document.querySelector('.popup__close');
         this.calcBtn = document.querySelector('.popup__calc');
         this.form = document.querySelector('.popup__form');
         this.input = document.querySelector('.popup__input');
