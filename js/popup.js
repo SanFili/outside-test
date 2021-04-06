@@ -29,11 +29,11 @@ class Popup {
         const inputValue = this.input.value;
         const payments = [];
         if (inputValue !== '') {
-            const yearPayment = inputValue*12*0.13;
+            const yearPayment = Math.floor(inputValue*12*0.13);
             payments.push(yearPayment);
             let fullPay =  payments.reduce((sum, item) => sum + item, 0)
             while (fullPay < 260000) {
-                const yearPayment = inputValue*12*0.13;
+                const yearPayment = Math.floor(inputValue*12*0.13);
                 payments.push(yearPayment);
                 fullPay =  payments.reduce((sum, item) => sum + item, 0)
             } if (fullPay > 260000) {
