@@ -2,10 +2,15 @@
 @import url('../vendor/fonts.css');
 @import url('../blocks/start-page/start-page.css');
 @import url('../blocks/popup/popup.css');
+@import url('../blocks/error-msg/error-msg.css');
+
+body {
+  background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+}
 
 span {
-    margin-left: 3px;
-    color: #808080;
+  margin-left: 3px;
+  color: #808080;
 }
 
 input[type="number"]::-webkit-outer-spin-button,

@@ -8,9 +8,7 @@
   <link rel="stylesheet" href="./pages/style.css">
 </head>
 <body>
-    <div class="start-page">
-        <button class="start-page__btn">Налоговый вычет</button>
-    </div>
+    <button class="start-page__btn">Налоговый вычет</button>
     <div class="popup">
         <div class="popup__content">
             <img class="popup__close" src="./images/Vector.svg" alt="close popup">
@@ -18,24 +16,27 @@
             <p class="popup__description">Используйте налоговый вычет чтобы погасить ипотеку досрочно. Размер налогового вычета составляет не более 13% от своего официального годового дохода.</p>
             <h3 class="popup__subtitle">Ваша зарплата в месяц</h3>
             <input type="number" class="popup__input" placeholder="Введите данные">
-            <span class="error-msg"></span>
+            <p class="error-msg"></p>
             <button class="popup__calc">Рассчитать</button>
-            <h3 class="popup__subtitle">Итого можете внести в качестве досрочных:</h3>
+         <!--   <h3 class="popup__subtitle">Итого можете внести в качестве досрочных:</h3> -->
             <form class="popup__form">
-                <div class="popup__checkbox">
+             <!-- 
                     <label class="popup__check"><input type="checkbox" > 78 000 рублей <span>в 1-ый год</span></label><br>
                     <label class="popup__check"><input type="checkbox" > 78 000 рублей <span>во 2-ой год</span></label><br>
                     <label class="popup__check"><input type="checkbox" > 78 000 рублей <span>в 3-ий год</span></label><br>
                     <label class="popup__check"><input type="checkbox" > 26 000 рублей <span>в 4-ый год</span></label>
-                </div>
+                   -->
                 <div class="popup__radiobox">
                     <h3 class="popup__subtitle">Что уменьшаем?</h3>
                     <label class="popup__radio popup__radio_checked"><input type="radio" name="radio" checked>Платеж</label>
                     <label class="popup__radio"><input type="radio" name="radio">Срок</label>
-                </div>
+                </div> 
                 <button type class="popup__btn">Добавить</button>
             </form>
         </div>
     </div>
+    <script src="js/popup.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

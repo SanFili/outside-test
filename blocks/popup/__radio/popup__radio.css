@@ -17,3 +17,9 @@
     position: absolute;
 	opacity: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .popup__radio {
+        margin: 24px 8px 0 0;
+    }
+}

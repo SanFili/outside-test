@@ -1,6 +1,6 @@
 .popup__check {
     display: block;
-    width: 488px;
+    width: 100%;
     border-bottom: 1px solid #DFE3E6;
     padding: 0 0 16px;
     margin: 0;
@@ -34,4 +34,8 @@
 
   .popup__check:hover::before {
     border-color: #000;
+}
+
+.popup__check input:checked .popup__check::before {
+    background-color: red;
 }

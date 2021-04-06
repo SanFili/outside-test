@@ -1,5 +1,4 @@
 .popup__description {
-    width: 450px;
     font-family: 'Lab Grotesque';
     font-style: normal;
     font-weight: normal;
@@ -7,4 +6,12 @@
     line-height: 24px;
     color: #808080;
     margin: 16px 0 20px;
+}
+
+@media screen and (max-width: 540px) {
+    .popup__description {
+        font-size: 12px;
+        line-height: 16px;
+        width: 100%;
+    }
 }

@@ -1,5 +1,7 @@
+@import url('./_error/popup__input_error.css');
+
 .popup__input {
-    width: 478px;
+    width: calc(100% - 10px);
     height: 40px;
     border: 1px solid #DFE3E6;
     border-radius: 3px;
