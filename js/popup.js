@@ -75,7 +75,7 @@ class Popup {
             const label = `${pay} рублей`;
             const span = `в ${index+1}-й год`;
             const check = `
-            <label class="popup__check"><input type="checkbox" name="check" >${label}<span>${span}</span></label><br>`
+            <label class="popup__check"><input type="checkbox" name="check" ><span class="text">${label}<span>${span}</span></span></label><br>`
             this.form.insertAdjacentHTML('beforebegin', check);
         })
     }
@@ -84,5 +84,10 @@ class Popup {
         this.startBtn.addEventListener('click', this.open);
         this.closeBtn.addEventListener('click', this.close);
         this.calcBtn.addEventListener('click', this.calculate);
+        this.input.addEventListener('keydown', () => {
+            if(event.code === 'Enter') {
+                this.calculate();
+            }
+        })
     } 
 }

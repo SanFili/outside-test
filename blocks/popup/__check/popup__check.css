@@ -19,7 +19,7 @@
     opacity: 0;
 }
 
-.popup__check::before {
+.popup__check .text::before {
     content: '';
     display: inline-block;
     flex-shrink: 0;
@@ -36,6 +36,10 @@
     border-color: #000;
 }
 
-.popup__check input:checked .popup__check::before {
+.popup__check input:checked + .text::before {
     background-color: red;
+    background-image: url('../../../images/check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
 }
