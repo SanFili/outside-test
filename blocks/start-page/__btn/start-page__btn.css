@@ -1,5 +1,4 @@
 .start-page__btn {
-    width: 198px;
     height: 56px;
     font-family: 'Lab Grotesque';
     font-style: normal;
@@ -14,6 +13,10 @@
     filter: drop-shadow(0px 0px 44px #CFDAE7);
     padding: 16px 32px; 
     cursor: pointer;
+    position: relative;
+    top: 50vh;    
+    left: 50vw;                     
+    transform: translate(-50%, -50%) 
 }
 
 .start-page__btn:hover {
@@ -21,4 +24,13 @@
     filter: none;
     color: #000;
     background-color: #fff;
+}
+
+@media screen and (max-width: 540px) {
+    .start-page__btn {
+        height: 40px;
+        padding: 12px 24px;
+        font-size: 12px;
+        line-height: 16px;
+    }
 }

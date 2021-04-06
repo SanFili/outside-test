@@ -1,0 +1,10 @@
+.popup__radiobox {
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+@media screen and (max-width: 320px) {
+    .popup__radiobox {
+        display: block;
+    }
+}

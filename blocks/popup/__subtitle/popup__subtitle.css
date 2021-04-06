@@ -1,8 +1,10 @@
+@import url('./_final/popup__subtitle_final.css');
+
 .popup__subtitle {
     font-family: 'Lab Grotesque';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    margin: 0;
+    margin: 4px 16px 0 0;
 }

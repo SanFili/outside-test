@@ -8,10 +8,14 @@
     background: transparent;
     color: #EA0029;
     padding: 0;
-    margin: 0 0 16px;
+    margin: 0 0 12px;
     cursor: pointer;
 }
 
 .popup__calc:hover {
     color: #F53A31;
+}
+
+.popup__calc:focus {
+    outline: none;
 }

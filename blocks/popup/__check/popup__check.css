@@ -1,0 +1,45 @@
+.popup__check {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #DFE3E6;
+    padding: 0 0 16px;
+    margin: 0;
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.popup__check input {
+    position: absolute;
+    opacity: 0;
+}
+
+.popup__check .text::before {
+    content: '';
+    display: inline-block;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #DFE3E6;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-right: 11px;
+}
+
+  .popup__check:hover::before {
+    border-color: #000;
+}
+
+.popup__check input:checked + .text::before {
+    background-color: red;
+    background-image: url('../../../images/check.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}

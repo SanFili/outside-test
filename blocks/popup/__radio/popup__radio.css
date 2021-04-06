@@ -1,0 +1,32 @@
+.popup__radio span {
+    cursor: pointer;
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 0 16px;
+    padding: 6px 12px;
+    background: #EEF0F2;
+    border-radius: 50px;
+}
+
+.popup__radio input {
+    position: absolute;
+	opacity: 0;
+}
+
+.popup__radio:hover span{
+    background: #DFE3E6;
+}
+
+.popup__radio input:checked +span {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+    .popup__radio span {
+        margin: 24px 8px 0 0;
+    }
+}
